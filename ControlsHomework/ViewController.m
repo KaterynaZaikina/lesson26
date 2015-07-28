@@ -88,7 +88,7 @@ typedef enum {
     } else {
         
         [self.alienView.layer removeAllAnimations];
-       // self.alienView.transform = CGAffineTransformIdentity;
+       
     
     }
 
@@ -140,8 +140,6 @@ typedef enum {
             
             self.alienView.image = [UIImage imageNamed:@"alien2.jpg"];
             NSLog(@"%@", NSStringFromCGRect(self.alienView.frame));
-            //self.alienView.
-          //  NSLog(@"new %@", NSStringFromCGRect(self.alienView.frame));
 
             
             
